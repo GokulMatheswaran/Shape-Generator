@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+}
+
+.shape{
+    background-image: url(https://png.pngtree.com/background/20210712/original/pngtree-modern-double-color-futuristic-neon-background-picture-image_1181573.jpg);
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#para1{
+    font-size: 20px;
+}
+
+.circle{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    margin: 10px;
+    text-align: center;
+
+}
+
+.rectangle{
+    width: 200px;
+    height: 100px;
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+.square{
+    width: 100px;
+    height: 100px;
+    background-color: violet;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+    position: relative;
+    color: white;
+    margin: 10px;
+    text-align: center;
+}
+.box {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    position: absolute;
+    margin: 10px;
+  }
+  
+  
+  #number {
+    width: 150px;
+    height: 40px;
+  }
+  
+  #button {
+    width: 300px;
+    height: 30px;
+    border-radius: 20px;
+    background-color: black;
+    color: white;
+    border: none;
+
+  }
